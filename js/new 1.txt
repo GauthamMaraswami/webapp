@@ -1,0 +1,9 @@
+
+figure#spinner img:nth-child(5){ transform: rotateY(-180deg); }
+figure#spinner img:nth-child(6){ transform: rotateY(-225deg); }
+figure#spinner img:nth-child(7){ transform: rotateY(-270deg); }
+figure#spinner img:nth-child(8){ transform: rotateY(-315deg); }
+<img src="G:\New folder\d.jpg" alt="">
+<img src="G:\New folder\f.jpg" alt="">
+<img src="G:\New folder\j.jpg" alt="">
+<img src="G:\New folder\k.jpg" alt="">
