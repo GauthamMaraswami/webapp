@@ -1,0 +1,127 @@
+body{
+ 
+ 
+  font: 15px/20px Arial, sans-serif;
+}
+#headright{
+	font-size:10em;
+	font-weight: 900;
+	text-align: left;
+	color:  #8c8c8c;
+	padding-left: 15cm;
+	padding : 2cm;
+	margin-right:10;
+}
+#heading{
+	font-size:10em;
+	font-weight: 900;
+	text-align: left;
+	color:  #8c8c8c;
+	padding-left: 7cm;
+	padding : 2cm;
+	margin-left:10;
+}
+#high{
+	color:	#FFFAFA;
+}
+#high1{
+	color: #d633ff;
+}
+#newtext{
+	color:#000000;
+}
+#flavour{
+	color: #ffffff;
+}
+
+.container {
+  margin: 0 auto;
+  width: 250px;
+  height: 200px;
+  position: relative;
+  perspective: 1000px;
+}
+
+.carousel {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+.item {
+  display: block;
+  position: absolute;
+  border-style: solid;
+    border-width: 5px;
+  width: 200px;
+  height: 340px;
+  line-height: 20px;
+  font-size: 1em;
+  text-align: center;
+  color: #FFF;
+  opacity:0.8;
+  border-radius: 10px;
+}
+
+.a {
+  transform: rotateY(0deg) translateZ(450px);
+  background: #000033 
+}
+.b {
+  transform: rotateY(36deg) translateZ(450px);
+  background:#ffffff
+}
+.c {
+  transform: rotateY(72deg) translateZ(450px);
+  background: #000033
+}
+.d {
+  transform: rotateY(108deg) translateZ(450px);
+  background: #ffffff
+}
+.e {
+  transform: rotateY(144deg) translateZ(450px);
+  background: #000033;
+} 
+.f {
+  transform: rotateY(180deg) translateZ(450px);
+  background: #ffffff;
+}
+.g{
+	transform: rotateY(216deg) translateZ(450px);
+  background: #000033;
+}
+.h{transform: rotateY(252deg) translateZ(450px);
+  background: #ffffff;
+	
+}
+.i{transform: rotateY(288deg) translateZ(450px);
+  background: #000033;
+	
+}
+.j{transform: rotateY(324deg) translateZ(450px);
+  background: #ffffff;
+	
+}
+
+.next, .prev {
+  color: #000000;
+  position: absolute;
+ 
+   padding: 100px 0;
+  cursor: pointer;
+  background: #CCC;
+  border-radius: 5px;
+  border-top: 1px solid #FFF;
+  box-shadow: 0 5px 0 #999;
+  transition: box-shadow 0.1s, top 0.1s;
+}
+.next:hover, .prev:hover { color: #000; }
+.next:active, .prev:active {
+  top: 104px;
+  box-shadow: 0 1px 0 #999;
+}
+.next { right: 5em; }
+.prev { left: 5em; }

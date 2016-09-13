@@ -1,0 +1,87 @@
+.row-header{
+	
+    margin:0px auto;
+    padding:0px auto;
+}
+
+.row-content {
+	background-color:#AfAfAf;
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+
+.row-footer{
+    background-color:#AfAfAf;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    background: #7986CB ;
+    color:floralwhite;
+}
+
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+body {
+    background-image: url("G:\New folder\bootstrap-3.3.6-dist\css\back.jpg");
+	
+}
+div#carousel { 
+  perspective: 1200px; 
+  background: #100000; 
+  padding-top: 10%; 
+  font-size:0; 
+  margin-bottom: 3rem; 
+  overflow: hidden; 
+}
+figure#spinner { 
+  transform-style: preserve-3d; 
+  height: 300px; 
+  transform-origin: 50% 50% -500px; 
+  transition: 1s; 
+} 
+figure#spinner img { 
+  width: 40%; max-width: 425px; 
+  position: absolute; left: 30%;
+  transform-origin: 50% 50% -200px;
+  outline:1px solid transparent; 
+}
+figure#spinner img:nth-child(1) { transform:rotateY(-45deg); 
+}
+figure#spinner img:nth-child(2) { transform: rotateY(45deg); }
+figure#spinner img:nth-child(3) { transform: rotateY(135deg); }
+figure#spinner img:nth-child(4) { transform: rotateY(225deg); }
+.box{
+  /*Some basic styling*/
+    border: 1px solid #333;
+    width: 60px;
+    height: 60px;
+    padding: 30px;
+    text-align: center;
+    margin: 10px auto;
+    background: #29a7d3;
+    color: white;
+    border-radius: 50%;
+    font-family:  helvetica;
+  
+}
+
+div#carousel ~ span { 
+  color: #fff; 
+  margin: 5%; 
+  display: inline-block; 
+  text-decoration: none; 
+  font-size: 2rem; 
+  transition: 0.6s color; 
+  position: relative; 
+  margin-top: -6rem; 
+  border-bottom: none; 
+  line-height: 0; }
+div#carousel ~ span:hover { color: #888; cursor: pointer; }
